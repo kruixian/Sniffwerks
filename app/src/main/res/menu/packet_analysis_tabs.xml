@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_io_graph"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_zoom"
+        android:title="@string/io_graph"
+        app:itemIconTint="#FFFFFF"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_packet_length"
+        android:enabled="true"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="@string/packet_length"
+        app:itemIconTint="#FFFFFF"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_conversation"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="@string/conversation"
+        app:itemIconTint="#FFFFFF"
+        app:showAsAction="ifRoom" />
+
+</menu>

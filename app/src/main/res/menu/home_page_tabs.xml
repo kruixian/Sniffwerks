@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_packet_sniffer"
+        android:enabled="true"
+
+        android:title="@string/packet_sniffer"
+        app:itemIconTint="#FFFFFF"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_app_filtering"
+        android:enabled="true"
+
+        android:title="@string/app_filtering"
+        app:itemIconTint="#FFFFFF"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_packet_analysis"
+        android:enabled="true"
+
+        android:title="@string/packet_analysis"
+        app:itemIconTint="#FFFFFF"
+        app:showAsAction="ifRoom" />
+
+</menu>
